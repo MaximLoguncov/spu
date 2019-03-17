@@ -1,4 +1,6 @@
-#сделано 8.03.19
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
 
 import math
 
