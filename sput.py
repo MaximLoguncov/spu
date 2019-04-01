@@ -83,7 +83,7 @@ sin1 = math.sin(GeoShir * math.pi / 180)
 
 atan1 = math.atan(tan1 / sin1) * (180/math.pi)
 
-print('Азимут :',180 + atan1)
+print('Азимут :',180 + float('{0:4.2f}'.format(atan1)) )
 
 
 #определяем угол места
@@ -94,6 +94,7 @@ sqrt2 = math.sqrt(1- (math.pow(math.cos((GeoDolq - SpGeoDol) * math.pi/180), 2 )
 
 atan2 = math.atan(cos2 / sqrt2) * (180 / math.pi);
 
-print('Угол места :', atan2 )
+
+print('Угол места :', float('{0:4.2f}'.format(atan2)) )
 
 input ()
